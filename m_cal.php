@@ -11,9 +11,9 @@ if (!empty($_POST['sex']) && !empty($_POST['weight'])) {
 //フォーム画面リンク入れる
 if ($sex == '男') {
 	$result = $weight * 40;
-	echo $result;
+	echo 'あなたの基礎代謝は' . $result . 'kcalです！';
 } else {
 	$result = $weight * 30;
-	echo $result;
+	echo 'あなたの基礎代謝は' . $result . 'kcalです！';
 }
 ?>

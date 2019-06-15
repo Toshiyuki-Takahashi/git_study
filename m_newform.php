@@ -18,6 +18,11 @@
 <input type="radio" name="controll" value="維持">維持
 <input type="radio" name="controll" value="減量">減量
 </p>
+<p>生活強度を入力してください<br>
+<input type="radio" name="strength" value="1.2">1.2
+<input type="radio" name="strength" value="1.5">1.5
+<input type="radio" name="strength" value="1.7">1.7
+</p>
 <input type="submit" value="入力">
 </form>
 </body>

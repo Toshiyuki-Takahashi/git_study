@@ -5,7 +5,6 @@
 <title>マッスル入力フォーム</title>
 </head>
 <body>
-<!--あとで男女別フォーム作る(簡易的に)-->
 <form method="POST" action="./m_cal.php">
 <p>性別を選んでください<br>
 <input type="radio" name="sex" value="男">男
@@ -14,6 +13,9 @@
 <p>体重を入力してください<br>
 <input type="num1" name="weight">kg
 </p>
+<p>体脂肪率を入力してください<br>
+変わらなければ「0」と入力してください<br>
+<input type="num2" name="body_fat">%
 <input type="submit" value="入力">
 </form>
 </body>
