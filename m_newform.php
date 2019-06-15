@@ -5,6 +5,7 @@
 <title>基礎代謝計算フォーム</title>
 </head>
 <body>
+<h2>もう少し細かく計算したい人はこちらで計算してみてください</h2>
 <form method="POST" action="">
 <p>性別を選んでください<br>
 <input type="radio" name="sex" value="男">男
